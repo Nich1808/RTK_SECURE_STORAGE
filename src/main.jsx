@@ -7,7 +7,7 @@ import { Provider } from "react-redux";
 import { BrowserRouter, Route, Routes } from "react-router";
 import ProductDetail from "./pages/product/ProductDetail.jsx";
 import Login from "./pages/auth/Login.jsx";
-import RootLayout from "./components/layouts/root-layout.jsx";
+import RootLayout from "./components/layouts/RootLayout.jsx";
 import Register from "./pages/auth/Register.jsx";
 import Register2 from "./pages/auth/Register2.jsx";
 import Products from "./pages/product/ProductTable.jsx";
