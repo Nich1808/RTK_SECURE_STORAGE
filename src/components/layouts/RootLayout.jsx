@@ -1,7 +1,7 @@
 import React from "react";
 import NavbarBasic from "./Navbar";
 import { Outlet } from "react-router";
-import FooterComponent from "./Footer";
+import FooterComponent from "./footer";
 
 
 
