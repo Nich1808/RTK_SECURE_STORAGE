@@ -3,6 +3,7 @@ import CardProduct from "../../components/card/card-product";
 import { useGetProductsQuery } from "../../features/product/productSlice2";
 import { NavLink } from "react-router";
 import SkeletonCardProduct from "../../components/card/skeleton-card-product";
+import SEO from "../../components/seo/SEOComponent";
 
 export default function Product() {
   const { data, isLoading } = useGetProductsQuery();
@@ -12,6 +13,15 @@ export default function Product() {
 
   return (
     <>
+
+    {/* seo implment  */}
+
+    <SEO
+    title="MONICH | Product"
+    description="MONICH is the best platform for ecommerce  order product"
+    image={"https://opengraph.b-cdn.net/production/images/eaef5247-b891-4c2b-815f-daf67df4981a.jpg?token=D5EzUzgekTCw12CF1lgIw2gZEyp1aRML6rbrBC-wayk&height=675&width=1200&expires=33291158276"}
+    keywords={"ecommer, product"}
+    />
       <main className="max-w-screen-xl mx-auto">
         <NavLink
           role="menuitem"
