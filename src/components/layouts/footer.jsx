@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Footer() {
+export default function FooterComponent() {
   return (
     <>
       {/*<!-- Component: Primary Dark Theme Footer --> */}
